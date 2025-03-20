@@ -1,3 +1,4 @@
+# importing libraries
 import streamlit as st
 import requests
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -10,11 +11,6 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 import json
 
-
-# NEWS_API_KEY="178b04ae7bb94475ac292418f86bdbf2"
-# DEEPSEEK_API_KEY = "sk-f43bbe3855604a8ba75066424cb06b56"
-# NEWS_API_KEY="178b04ae7bb94475ac292418f86bdbf2"
-# DEEPSEEK_API_KEY = "sk-f43bbe3855604a8ba75066424cb06b56"
 
 st.title("Startup Guide")
 # google trends api
