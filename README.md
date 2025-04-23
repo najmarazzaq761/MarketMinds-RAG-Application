@@ -48,8 +48,12 @@ streamlit run app.py
 📌 Improve **LLM fine-tuning** for better responses  
 📌 Integrate **financial modeling tools**  
 
-## **Contributors**  
-👩‍💻 **Najma Razzaq** – AI & Backend Development  
+## ✍️ Author
+
+**Najma Razzaq**  
+BSCS Student | Data Scientist | [LinkedIn](https://www.linkedin.com/in/najmarazzaq)
+
+--- 
 
 ## **License**  
 📜 MIT License – Open for contributions!  
