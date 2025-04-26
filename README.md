@@ -1,6 +1,8 @@
 
-# **MarketMinds** 🏆🚀  
+# **MarketMinds: A Startup Guide** 🏆🚀  
 _A RAG-powered AI consultant for validating business ideas using real-time market insights._  
+
+https://github.com/user-attachments/assets/271ef58a-ef8d-4be0-9143-cd68c3f0beca
 
 ## **Overview**  
 MarketMinds is an AI-powered **business idea validation tool** that helps entrepreneurs assess their startup concepts using **real-time market trends** and **news insights**. By leveraging **Retrieval-Augmented Generation (RAG)**, it provides data-driven recommendations to refine business models, identify market opportunities, and analyze competition.  
