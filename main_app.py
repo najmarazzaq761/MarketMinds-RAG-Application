@@ -1,13 +1,12 @@
 # importing libraries
 import streamlit as st
 import requests
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
-from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 # from langchain_ollama import ChatOllama
 from langchain_groq import ChatGroq
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
@@ -16,7 +15,7 @@ import json
 # page configuration
 st.title("📊 MarketMinds: Startup Guide")
 with st.sidebar:
-    st.image("Startup-Guide.png", use_column_width=True)
+    st.image("Startup-Guide.png", use_container_width=True)
     st.markdown(
                "Validate your business ideas with AI-powered market insights in real-time."
     )
