@@ -2,6 +2,8 @@
 # **MarketMinds: A Startup Guide** 🏆🚀  
 _A RAG-powered AI consultant for validating business ideas using real-time market insights._  
 
+Try live demo here: https://marketminds-rag-application.streamlit.app/
+
 https://github.com/user-attachments/assets/aba03fad-b991-4c85-adef-cef71f9a6f36
 
 ## **Overview**  
