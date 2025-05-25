@@ -21,7 +21,7 @@ with st.sidebar:
     )
 
     st.title("Configuration")
-    temp = st.slider("Temperature", min_value=0.0, max_value=0.5, value=0.3)
+    temp = st.slider("Temperature", min_value=0.0, max_value=0.5, value=0.25)
 # google trends api
 from pytrends.request import TrendReq
 @st.cache_data
