@@ -1,7 +1,7 @@
 # importing libraries
 import streamlit as st
 import requests
-from langchain.schema import Document
+from langchain_community.schema import Document
 # from langchain_ollama import ChatOllama
 from langchain_groq import ChatGroq
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -151,4 +151,5 @@ def clear_chat_history():
     st.session_state.messages = [{"role": "assistant", "content": "Ask Question"}]
     
 st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
+
 
